@@ -5,12 +5,21 @@
     .hero{
         flex-direction: column;
     }
+    .nav-bars {
+        display: block;
+    }
+    .nav-bars i{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
     .header .hero h1{
         color: rgb(255, 255, 255);
-        font-size: 26px;
-        font-weight: 800;
+        font-size: 36px;
+        font-weight: 900;
         line-height: 120%;
-        padding: 10px 0px;
+        width: 70%;
+    
     }
     .description{
         color: rgba(255, 255, 255, 0.5);
@@ -18,11 +27,20 @@
         font-weight: 400;
         line-height: 24px;
         letter-spacing: 0.5px;
-        padding: 20px 0px;
+        padding-bottom: 40px;
+        width: 80%;
     }
+    .header .brand{
+        color: rgb(230, 83, 60);
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 120%;
+        padding-bottom: 30px;
+    }
+
     .header .img .card-1{
         width: 160px;
-        height: 70px;
+        height: 75px;
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
@@ -30,7 +48,7 @@
         background: rgba(255, 255, 255, 0.1);
         position: absolute;
         top: 13%;
-        left: 75%;
+        left: 90%;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -53,10 +71,10 @@
     }
     .header .img .card-2 .icon i{
         font-size: 24px;
-        color:red;
+        color: rgb(230, 83, 60);
     }
     .header .img .card-2 h3{
-        color: rgb(250, 250, 249);
+        color: rgba(239, 237, 232, 0.65);
         font-size: 18px;
         font-weight: 700;
         line-height: 24px;
@@ -69,7 +87,7 @@
         line-height: 24px;
         letter-spacing: 0.5px;
     }
-    .header .img .card-1 h2{
+    .header .img .card-1 h3{
         color: rgb(250, 250, 249);
         font-size: 30px;
         font-weight: 700;
@@ -86,7 +104,9 @@
         padding-top: 10px;
     }
     .btn-primary{
-        width: 175px;
+        width: 200px;
+        height: 40px;
+        padding: 0px 5px;
         border-radius: 42px;
         background: rgb(230, 83, 60);
         border: none;
@@ -97,18 +117,101 @@
     }
     .btn-normal{
         background:#0e0e0e;
-        width: 175px;
+        width: 200px;
+        height: 40px;
         border-radius: 42px;
-        border: none;
+        border: 1px solid #e1e1e1;
         color: rgb(255, 255, 255);
         font-size: 14px;
         font-weight: 500;
+
     }
     .header .img img{
-        width: 270px;
+        width: 350px;
         height: 450px;
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 50px;
      }
+    .header-text{
+      width: 100%;
+    }
+    .header-text .btn{
+        display: flex;
+        gap: 10px;
+    }
+    .header{
+        padding-bottom: 0px;
+    }
+        /* change your habit style start from here */
+    .habit{
+        padding: 0px 0px 40px 0px;
+    }
+    .habit .habit-img{
+        grid-template-columns: repeat(1, 1fr );
+    }
+    .habit h1{
+        color: rgb(255, 255, 255);
+        font-size: 30px;
+        font-weight: 800;
+    }
+    .habit p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        padding: 20px 0px;
+    }
+    /* change your habit style end from here */
+    /* run and extra mile start */
+    .run-extra-mile .content{
+        flex-direction: column;
+    }
+    .run-extra-mile .content .img img{
+        width: 270px;
+        height: 200px;
+        border-radius: 18px;
+        justify-content: center;
+        align-items: center;
+    }
+    .run-extra-mile .content .text h1 {
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 120%;
+    }
+    .run-extra-mile .btn-primary{
+        width: 260px;
+        margin-bottom: 20px;
+    }
+    
+    /* run and extra mile end */
+    /* team section start  */
+
+    .images{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    #team .caption{
+        color: rgb(255, 255, 255);
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 120%;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    /* team section end  */
+
+    /* calculator section start */
+    #calculator{
+        display: flex;
+        flex-direction: column;
+    }
+    /* calculator section end */
+
+
+
+
 }
