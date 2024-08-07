@@ -235,17 +235,10 @@ body{
     justify-content: space-between;
     padding: 25px 25px 10px 50px;
 }
-.run-extra-mile .content .img{
-display: flex;
-justify-content: center;
-align-items: center;
-}
 .run-extra-mile .content .img img{
     width: 360px;
     height: 270px;
     border-radius: 18px;
-    justify-content: center;
-    align-items: center;
 }
 .run-extra-mile .content .text h1 {
     color: rgb(255, 255, 255);
