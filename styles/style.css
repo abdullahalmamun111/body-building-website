@@ -415,6 +415,30 @@ body{
 /* membership section end from here */
 
 /* calculator section start from here */
+.calculator-title{
+    background-color: black;
+    padding: 50px 0px;
+}
+.calculator-title .content{
+    width: 50%;
+    margin: 0 auto;
+}
+.calculator-title h1{
+    color: rgb(255, 255, 255);
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.calculator-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    text-align: left;
+}
 .calculator {
     background: rgb(34, 34, 34);
     padding-bottom: 50px;
