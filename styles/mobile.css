@@ -189,6 +189,7 @@
         font-size: 36px;
         font-weight: 800;
         line-height: 120%;
+        width: 100%;
     }
     .run-extra-mile .content .text p{
         color: rgba(255, 255, 255, 0.5);
@@ -197,6 +198,7 @@
         line-height: 18px;
         letter-spacing: 0.2px;
         padding: 20px 0px;
+        width: 95%;
     }
     
     .run-extra-mile .btn-primary{
