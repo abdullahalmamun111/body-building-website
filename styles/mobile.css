@@ -245,16 +245,43 @@
     }
     /* team section end  */
 
+    /* membership section style */
+    .membership .cart-plan{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .membership .title-text h1{
+        color: #4d45f6;
+        font-size: 32px;
+        font-weight: 700;
+        margin: 10px 0px;
+        font-family: Inter;
+    }
+    .membership .title-text h6{
+        width: 80%;
+        color: #9aa0a5;
+        font-size: 16px;
+        font-weight: 400;
+        margin: 20px 0px;
+        line-height: 180%;
+        font-family: Inter;
+    }
+    /* membership section style */
+
     /* calculator section start */
     #calculator{
         display: flex;
         flex-direction: column;
     }
+    .calculator .chart-1 {
+        width: 100%;
+    }
     .calculator .chart-1 table{
-        width: 300px;
+        width: 80%;
     }
     .chart-2{
-        width: 300px;
+        width: 100%;
         height: auto;
     }
     .calculator table caption {
@@ -279,7 +306,7 @@
         width: 49%;
     }
     #opt-2{
-        width: 100%;
+        width: 98%;
     }
     /* calculator section end */
 

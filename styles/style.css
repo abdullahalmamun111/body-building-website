@@ -23,7 +23,7 @@ body{
     background: rgb(230, 83, 60);
     border: none;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 22px;
 }
@@ -35,7 +35,7 @@ body{
     border-radius: 42px;
     border: 1px solid #e1e1e1;
     color: rgb(255, 255, 255);
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 22px;
     margin-left: 10px;
@@ -51,7 +51,7 @@ body{
 
 /* header section start from here */
 .header{
-    padding: 40px 0px;
+    padding: 40px 0px 0px 0px;
     width: 100%;
     background: linear-gradient(to bottom , #000000, #1d1a1a, #000000);
 }
@@ -233,7 +233,7 @@ body{
     border-radius: 18px;
     background: rgb(34, 34, 34);
     justify-content: space-between;
-    padding: 25px 25px 10px 50px;
+    padding: 30px 30px 30px 50px;
 }
 .run-extra-mile .content .img img{
     width: 360px;
@@ -241,8 +241,9 @@ body{
     border-radius: 18px;
 }
 .run-extra-mile .content .text h1 {
+    width: 55%;
     color: rgb(255, 255, 255);
-    font-size: 48px;
+    font-size: 42px;
     font-weight: 900;
     line-height: 120%;
     text-align: left;
@@ -254,6 +255,7 @@ body{
     line-height: 24px;
     letter-spacing: 0.3px;
     padding: 20px 0px;
+    width: 65%;
 }
 
 /* run an easily section end from here */
@@ -273,7 +275,7 @@ body{
     border-radius: 20px;
 }
 .images .img img{
-    width: 310px;
+    width: 100%;
     height: 260px;
     border-radius: 18px;
 }
@@ -312,6 +314,105 @@ body{
     color: #b4a79e;
 }
 /* meet out team section end from here */
+/* membership section start from here */
+.membership {
+    width: 100%;
+    background: black;
+    padding: 50px 0px;
+}
+.membership .title-text p{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Inter;
+}
+.membership .title-text h1{
+    color: #4d45f6;
+    font-size: 52px;
+    font-weight: 700;
+    margin: 10px 0px;
+    font-family: Inter;
+}
+.membership .title-text h6{
+    width: 50%;
+    color: #9aa0a5;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 40px 0px;
+    line-height: 180%;
+    font-family: Inter;
+}
+.membership .title-text{
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.membership .cart-plan .cart{
+    padding-top: 30px;
+    width: 100%;
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 2px 2px 10px  #ffff;
+}
+.membership .cart-btn1{
+    background: #4d45f6;
+    font-size: 16px;
+    color: #ffff;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+.membership .cart-btn2:hover{
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.membership .cart h5{
+    font-size: 62px;
+    font-weight: 200;
+    color: #212529;
+    margin-top: 20px;
+    font-family: Inter;
+}
+.membership .cart sub,sup{
+    font-size: 30px;
+    font-weight: 300;
+    color: #212529;
+    font-family: Inter;
+}
+.membership .cart p{
+    font-size: 14px;
+    color: #584c4c;
+    font-family: Inter;
+}
+.membership .cart ul li{
+    font-size: 16px;
+    color: #212529;
+    margin: 15px 0px;
+    font-family: Inter;
+}
+.membership .cart-btn2{
+    width: 100%;
+    background: #4d45f6;
+    padding: 25px 0px;
+    border: none;
+}
+.membership .cart-btn2 a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #ffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: Inter;
+}
+.membership .cart-plan{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+/* membership section end from here */
 
 /* calculator section start from here */
 .calculator {
@@ -322,8 +423,11 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.calculator .chart-1{
+    width: 40%;
+}
 .calculator .chart-1 table{
-    width: 300px;
+    width: 80%;
 }
 .calculator table,th,td{
     border: 1px solid gray;
@@ -350,7 +454,7 @@ body{
     font-weight: 400;
 }
 .chart-2{
-    width: 570px;
+    width: 60%;
     height: auto;
 }
 .chart-2 h3{
@@ -408,7 +512,7 @@ body{
     margin-bottom: 10px;
 }
 #opt-1{
-    width: 50%;
+    width: 48.5%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
@@ -423,7 +527,7 @@ body{
     margin-bottom: 10px;
 }
 #opt-2{
-    width: 100%;
+    width: 97.5%;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     color: rgba(255, 255, 255, 0.6);
@@ -446,6 +550,7 @@ body{
     color: #000000;
 }
 /* calculator section end from here */
+
 
 /* footer section style */
 .footer{
