@@ -287,7 +287,49 @@
     .footer .content {
         flex-direction: column;
     }
-
-
+    .footer .content{
+        padding: 40px 0px;
+    }
+    .footer .content .side-1 h1{
+        color: rgb(230, 83, 60);
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 120%;
+        padding-bottom: 10px;
+    }
+    .footer .content .side-1 p{
+        letter-spacing: 0px;
+        margin: 10px 0px;
+    }
+    .footer .side-2{
+        flex-direction: column;
+        width: 100%;
+    }
+    .footer .content .side-2 h5{
+        color: rgb(255, 255, 255);
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 120%;
+        margin: 10px 0px;
+    }
+    .footer .content .side-2 p{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 120%;
+        padding: 8px 0px;
+    }
+    .footer .side-2 .sec-1,.sec-2{
+        width: 100%;
+    }
+    .copywright{
+        color: rgba(255, 255, 255, 0.5);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: 0.3px;
+        text-align: center;
+        padding: 30px 0px;
+    }
 
 }
