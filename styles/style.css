@@ -13,7 +13,7 @@ body{
     font-family: inter;
 }
 .container{
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
 }
 .btn-primary{
@@ -410,7 +410,7 @@ body{
 .membership .cart-plan{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 30px;
 }
 /* membership section end from here */
 
@@ -633,7 +633,4 @@ body{
     letter-spacing: 0.3px;
     text-align: center;
     padding: 30px 0px;
-}
-.hide{
-    display: none;
 }
