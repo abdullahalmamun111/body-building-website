@@ -88,7 +88,6 @@ body{
     border-radius: 39px;
     align-items: center ;
 }
-
 .header .hero h1{
     color: rgb(255, 255, 255);
     font-size: 76px;
@@ -113,7 +112,6 @@ body{
     justify-content: center;
     align-items: center;
 }
-
 .header .img img{
    width: 300px;
    height: 520px;
@@ -258,7 +256,6 @@ body{
     padding: 20px 0px;
     width: 65%;
 }
-
 /* run an easily section end from here */
 
 /* meet out team section start from here */
@@ -325,14 +322,12 @@ body{
     color: #ffff;
     font-size: 16px;
     font-weight: 400;
-    font-family: Inter;
 }
 .membership .title-text h1{
     color: #4d45f6;
     font-size: 52px;
     font-weight: 700;
     margin: 10px 0px;
-    font-family: Inter;
 }
 .membership .title-text h6{
     width: 50%;
@@ -341,7 +336,6 @@ body{
     font-weight: 400;
     margin: 40px 0px;
     line-height: 180%;
-    font-family: Inter;
 }
 .membership .title-text{
    text-align: center;
@@ -375,24 +369,20 @@ body{
     font-weight: 200;
     color: #212529;
     margin-top: 20px;
-    font-family: Inter;
 }
 .membership .cart sub,sup{
     font-size: 30px;
     font-weight: 300;
     color: #212529;
-    font-family: Inter;
 }
 .membership .cart p{
     font-size: 14px;
     color: #584c4c;
-    font-family: Inter;
 }
 .membership .cart ul li{
     font-size: 16px;
     color: #212529;
     margin: 15px 0px;
-    font-family: Inter;
 }
 .membership .cart-btn2{
     width: 100%;
@@ -406,7 +396,6 @@ body{
     color: #ffff;
     font-weight: bold;
     letter-spacing: 2px;
-    font-family: Inter;
 }
 .membership .cart-plan{
     display: grid;
